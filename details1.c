@@ -11,7 +11,7 @@ int main(){
     int rollno[] = {1, 2, 3, 4, 5, 6, 7, 8};
     char *DOB[] = {"12-JAN-2005", "12-FEB-2005", "12-MARCH-2005", "12-APRIL-2005", "12-MAY-2005", "12-JUNE-2005", "12-JULY-2005", "12-AUG-2005"};
     
-    // Allocate memory for student names
+    
     for (int i = 0; i < 8; ++i) {
         students[i].name = malloc(strlen(names[i]) + 1); // +1 for null terminator
         strcpy(students[i].name, names[i]);
@@ -31,7 +31,6 @@ int main(){
         {92, 95, 40, 92, 64, 96}
     };
 
-    // Assign marks to students
     for(int i = 0; i < 8; i++) {
         student[i].isa1.maths = marks[i][0];
         student[i].isa2.maths = marks[i][1];
@@ -62,7 +61,6 @@ int main(){
         printf("Invalid roll number. Please enter a number between 1 and 8.\n");
     }
 
-    // Free allocated memory for names
     for (int i = 0; i < 8; ++i) {
         free(students[i].name);
     }
