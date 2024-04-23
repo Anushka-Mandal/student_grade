@@ -20,7 +20,8 @@ make
 
 This will compile the source files and create an executable named student_grades.
 
-How to Run
+## How to Run
+
 After compiling, you can run the program by executing the generated executable:
 
 ```bash
@@ -29,7 +30,7 @@ After compiling, you can run the program by executing the generated executable:
 
 The program will prompt you to enter a student's roll number. Enter a number between 1 and 8 to view the corresponding student's grades and details.
 
-<b>Cleaning Up<b><br>
+## Cleaning Up
 To clean up the generated object files and the executable, run:
 
 ```bash
@@ -37,7 +38,7 @@ make clean
 ```
 This will remove the student_grades executable and all object files.
 
-Notes
+## Notes
 The source files for the program are details1.c and marks1.c.
 The grades.h header file contains the necessary function prototypes and struct definitions.
 The program uses dynamic memory allocation for storing student names.
