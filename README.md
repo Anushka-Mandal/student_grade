@@ -29,7 +29,7 @@ After compiling, you can run the program by executing the generated executable:
 
 The program will prompt you to enter a student's roll number. Enter a number between 1 and 8 to view the corresponding student's grades and details.
 
-<b>Cleaning Up<b>
+<b>Cleaning Up<b><br>
 To clean up the generated object files and the executable, run:
 
 ```bash
